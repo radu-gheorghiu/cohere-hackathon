@@ -82,6 +82,11 @@ How-to example: [A demo of how to interact with the application]()
 
 - **images** folder - contains sample images for showing in the README
 
+#### Workflow diagram
+
+  The following shows how the application works and how data flows through the application, in a top-down manner, from YouTube to data stores (Firestore and Pinecone) and to modeling and clustering services in the application, which generate insights about the video, which are stored in-memory during runtime.
+
+![image](https://github.com/radu-gheorghiu/cohere-hackathon/blob/3d6ac05adc8a168aa431d0701a7c1b3e2c7f1cd2/images/cohere%20hackathon%20-%20workflow.png)
 ----
 
 ### 💻👨‍💻 Demo
